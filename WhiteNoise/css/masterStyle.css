@@ -1,0 +1,614 @@
+body {
+  font-family: 'Comfortaa', Verdana, Arial, Helvetica,  Sans-serif;
+  font-size: 150%;
+  color: #ffffff;
+  background: #171717;
+  margin: 0px;
+  /*background-image: url("../images/bground1_cropped.png");
+  background-repeat: no-repeat; */
+}
+
+#pageContainer {
+  max-width: 2000px;
+  max-height: 2000px;
+  margin: 0px;
+  color: White;
+  background-color: #570d0d     /* #782424;red- too bright?  *//*#171717; original */
+}
+
+#contentContainer {
+}
+#contentContainer	a:link {
+  color: Lime;
+  /*color: #92ebfc;*/
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#contentContainer	a:visited {
+  color: #61878f;
+}
+
+#contentContainer	a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+#contentContainer	a:active {
+  color: #808000;
+  text-decoration: none;
+}
+/*
+#contentContainer	a:link {
+  color: #808000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#contentContainer	a:visited {
+  color: #808000;
+}
+
+#contentContainer	a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+#contentContainer	a:active {
+  color: #808000;
+  text-decoration: none;
+}
+*/
+#contentContainer h0 {
+  font-size: 200%;
+  color: #ffffff;
+}
+
+#contentContainer h1 {
+  font-size: 130%;
+  /*color: #808000; */
+  color: #ffffff;
+}
+
+#contentContainer h2 {
+  font-size: 120%;
+  color: #ffffff;
+}
+
+#contentContainer h3 {
+  font-size: 10o%;
+  color: #ffffff;
+}
+
+#articleContainer {
+  margin: 0px;
+  padding: 10px;
+  max-width: 12000px;
+}
+
+#articleContainerindex {
+	margin: 0px;
+	padding: 0px;
+	max-width: 12000px;
+}
+
+#gigContainerleft {
+
+	margin-right: 1px;
+	padding: 0px;
+	max-width: 10px;
+}
+
+#gigContainerRight {
+
+	margin-left: 600px;
+	padding: 0px;
+	max-width: 12000px;
+	
+	}
+
+#dividerBar {
+  height: 0px;
+  width: 100%;
+  background: #808000;
+}  
+	/*BannerTB added by N 	*/
+#BannerTB  {
+height: 10px;
+width: 100%;
+background: #910909;
+}
+
+
+
+/*------------------------ Latex symbol ----------------------------------   */ 
+.tex sub, .latex sub, .latex sup {
+      text-transform: uppercase;
+    }
+
+    .tex sub, .latex sub {
+      vertical-align: -0.5ex;
+      margin-left: -0.1667em;
+      margin-right: -0.125em;
+    }
+
+    .tex, .latex, .tex sub, .latex sub {
+      font-size: 1em;
+    }
+
+    .latex sup {
+      font-size: 0.85em;
+      vertical-align: 0.15em;
+      margin-left: -0.36em;
+      margin-right: -0.15em;
+    }
+
+/*------------------------ Images ----------------------------------   */
+.fig-floatRight {
+  display: block;
+  float: center;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: 200%;
+  text-indent: 0;
+  border: 0;
+}
+
+.img-floatRight {
+  float: right;
+  margin: 10px;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: 0;
+}
+
+.fig-floatLeft {
+  display: block;
+  float: left;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: 0;
+}
+
+.img-floatLeft {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: 0;
+}
+
+.img-centred {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  height: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: 0;
+}
+
+.fig-centred {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: 0;
+}
+.figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+.fig-FullPageImage {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: 0;
+}
+
+.img-FullPageImage {
+  max-width: 90%;
+  height: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: 0;
+}
+
+img.Image {
+  max-width: 100%;
+  min-width: 60%;
+}
+
+img.gemTableImage {
+  max-width: 90%;
+  height: auto;
+  padding: 20px;
+  display: block;
+  margin: auto;
+  border: 0;
+}
+
+img.blogImage {
+  max-width: 80%;
+  height: auto;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  border: 0;
+}
+
+/*------------------------ Text Settings ----------------------------------   */
+
+.text-centred {
+  text-align: center;
+}
+
+.text-floatRight {
+	text-align: Right;
+	
+	}
+
+p.textRed {
+  color: red;
+}
+
+p.centered {
+  text-align: center;
+}
+
+.bottom-three {
+  margin-bottom: 2cm;
+}
+
+.bottom-two {
+  margin-bottom: 1cm;
+}
+
+.top-three {
+  margin-top: 1cm;
+}
+
+/*------------------------ Page layout ----------------------------------   */
+
+
+#sidebar-a {
+  float: right;
+  width: 30%;
+  min-width: 280px;
+  font-size: 90%;
+  color: #484848;
+}
+
+#sidebar-a .padding {
+  padding: 0px;
+  padding-top: 20px;
+  line-height: 18px;
+}
+
+#sidebar-b {
+  float: right;
+  width: 30%;
+  min-width: 180px;
+  font-size: 90%;
+  color: #484848;
+}
+
+#sidebar-b .padding {
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 40px;
+  line-height: 18px;
+  border-radius: 15px;
+}
+
+#sidebar-c {
+  float: right;
+  width: 20%;
+  min-width: 150px;
+  font-size: 85%;
+	/*background-color:#E6E6CC ;*/
+  border-radius: 15px;
+}
+
+#sidebar-c .padding {
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 40px;
+  line-height: 18px;
+}
+
+
+/*------------------------ Header Table ----------------------------------   */
+table.headerTable {
+    /*font-family: 'simplifica', sans-serif; */
+  display: table;
+  background: #400;
+  width: 100%;
+  text-align: left;
+  border: 0px;
+}
+
+.headerTable th {
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+  font-style: normal;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.headerTable td {
+  color: white;
+  font-size: 120%;
+  font-weight: bold;
+  font-style: oblique;
+  vertical-align: middle;
+  text-align: center;
+}
+
+td.headerImageCell {
+  width: 70px;
+  text-align: center;
+}
+
+td.dimensionsCell {
+  width: 20%;
+  text-align: center;
+}
+
+td.caratsCell {
+  width: 20%;
+  text-align: center;
+}
+
+td.shoppingCell {
+  width: 20%;
+  text-align: center;
+}
+
+th.GemTableHeaderCell {
+  font-size: 120%;
+  font-style: normal;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.align-right-padded {
+  float: right;
+  margin: 0 1px 0px 0px;
+}
+
+.round_left {
+  border-radius: 15px 0 0 15px;
+}
+
+.round_right {
+  border-radius: 0 15px 15px 0;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+/*------------------------ Nav Bar ----------------------------------   */
+.topnav {
+  overflow: hidden;
+  background-color: #2f0303;
+  position: fixed;
+  top: 0px ;
+  width:100%
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.active {
+  background-color: #910909;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+/*------------------------ Gem Table ----------------------------------   */
+table.gemTable {
+ /*   width: 70%;*/
+/*	min-width:600px; */
+  max-width: 700px;
+  padding: 3px 3px;
+  border: 2px solid #808000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#table.th {
+  text-align: center;
+  font-weight: bold;
+}
+
+table.gemTable td {
+  border: 2px solid #808000;
+  padding: 4px 6px;
+}
+
+/*------------------------ 2 column table ----------------------------------   */
+table.TwoColGraphTable{
+  max-width: 1000px;
+  padding: 3px 3px;
+/*  border: 2px solid #808000;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.TwoColGraphTable td {
+  border: 1px solid #808000;
+  padding: 4px 6px;
+  width: 33%;
+  text-align: center;
+}
+
+table.TwoColGraphTable th {
+  border: 1px solid #808000;
+  padding: 4px 6px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+/*------------------------ Footer ----------------------------------   */
+#footer {
+  clear: both;
+  font-family: 'Comfortaa', Tahoma, Arial, Helvetica, Sans-serif;
+  font-size: 90%;
+  color: #c9c9c9;
+  background: #000000;
+  border-top: 1px solid #c30000;
+  border-bottom: 1px solid #c30000;
+  padding: 2px 25px;
+  height: 23px;
+}
+
+#footer a {
+  color: #c9c9c9;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #db6d16;
+}
+
+#footer #altnav {
+  width: "100%";
+  float: right;
+  text-align: right;
+}

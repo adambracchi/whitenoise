@@ -1,0 +1,15 @@
+         <div class="dropdown">
+            <button class="dropbtn">STEM Projects 
+             <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="../general/projects_general.html">General Rationale</a>
+              <a href="../EFM/EFM.html" >Aurora Monitor</a>
+              <a href="../infrasound/infrasound.html" >Infrasound Monitor</a>
+              <a href="../sid/sidspot.html">SIDspot</a>
+              <a href="gradiometer.html" class="active">Archaeological Gradiometer</a>
+              <a href="../fpga/fpga.html">Chip Design</a>
+              <a href="../nmr/nmr.html">Nuclear Magnetic Resonance</a>
+              <a href="../lightning/lightning.html">Lightning Tracker</a>
+            </div>
+          </div>

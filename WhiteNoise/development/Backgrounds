@@ -1,0 +1,6 @@
+Color: Maroon
+style="background-color:#5c2424"
+
+ repeating background image
+style="background-image: url(../images/bground1_cropped.png);
+ background-repeat: no-repeat ;
